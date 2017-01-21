@@ -1,0 +1,34 @@
+<header class="modal-header">Update Profile</header>
+<main class="modal-body">
+    <div id="profile-pic-section">
+        <img class="update-profile-pic" src="" alt="profile picture">
+        <a href="#" id="change-profile-picture-button" title="Click to change profile picture">
+            <i class="fa fa-camera" aria-hidden="true"></i> Change profile picture
+        </a>
+    </div>
+    <div id="choose-profile-pic">
+    <a href="#">
+      <i class="fa fa-times" aria-hidden="true"></i>
+    </a>
+    <input type="file" id="upload-file" placeholder="Choose file...">
+    <p title="Selected image"></p>
+  </div>
+    <div class="form-field">
+        <input type="text" name="user-name" maxlength="40" placeholder="Enter your name..." title="Name field" class="supervisor-name-label" id="user-name">
+    </div>
+    <div class="form-field">
+        <input type="email" name="email-field" maxlength="40" placeholder="Enter your email..." title="Email field" class="supervisor-email-label" id="email-field">
+    </div>
+    <div class="form-field">
+        <input type="text" name="role-field" maxlength="40" placeholder="Enter your role..." title="Role field" class="supervisor-role-label" id="role-field">
+    </div>
+    <div class="form-field">
+        <input type="text" name="location-field" maxlength="60" placeholder="Enter your location..." title="Location field" class="supervisor-address-label" id="location-field">
+    </div>
+</main>
+<footer class="modal-footer">
+    <i class="fa fa-stop-circle-o save-button" aria-hidden="true"></i>
+    <input type="button" value="Save" class="save-button" title="Save changes">
+    <i class="fa fa-times cancel-button" aria-hidden="true" class></i>
+    <input type="button" value="Cancel" class="cancel-button" title="Cancel">
+</footer>

@@ -1,0 +1,135 @@
+#update-profile-modal {
+    max-width: 400px;
+    padding: 0 24px;
+    min-width: 300px;
+
+    .modal-header {
+        padding: 14px 0;
+        font-size: 1.4em;
+        color: $white;
+        text-align: center;
+        margin-bottom: 5px;
+    }
+
+    div:first-child {
+        width: 175px;
+        margin: 0 auto;
+        position: relative;
+    }
+
+    div:first-child > img {
+        width: 100%;
+        border-radius: 6px;
+        box-shadow: 2px 2px 9px 0 rgba(146, 144, 141, 0.62);
+    }
+
+    #choose-profile-pic {
+        display: none;
+        height: 33px;
+        border-radius: 6px;
+        position: relative;
+        background-color: $default-color;
+        box-shadow: 0 0 20px 0 rgb(138, 138, 138);
+        margin-top: 8px;
+
+        input[type="file"] {
+            display: none;
+        }
+
+        p {
+            color: #fff;
+            margin: 0;
+            width: 88%;
+            padding: 9px 0 0 9px;
+            font-size: 1.04em;
+            word-wrap: break-word;
+            font-family: monospace;
+            @include truncate;
+        }
+
+        i {
+            position: absolute;
+            color: $white;
+            border: none;
+            right: 6px;
+            top: 6px;
+        }
+    }
+
+    a#change-profile-picture-button {
+        position: absolute;
+        bottom: 4px;
+        text-decoration: none;
+        height: 35px;
+        width: 100%;
+        text-align: center;
+        background-color: rgba(243, 239, 235, 0.54);
+        padding: 8px 2px 0 0;
+        color: $default-color;
+        border-radius: 0 0 6px 6px;
+        font-size: 0.9em;
+
+        i.fa.fa-camera {
+            padding-right: 0;
+        }
+    }
+
+    .form-field {
+        margin: 8px 0;
+        border-bottom: 1px solid $list-header-font;
+        padding-left: 10px;
+
+        input {
+            width: 100%;
+            height: 35px;
+            border: none;
+            background-color: $default-color;
+            outline: none;
+            color: $white;
+            @include truncate;
+        }
+    }
+
+    .modal-footer {
+        height: 60px;
+
+        input[type="button"] {
+            height: 70%;
+            width: 110px;
+            position: absolute;
+            top: 5px;
+            font-size: 1.13em;
+            text-align: right;
+            padding-right: 21px;
+        }
+
+        input.save-button {
+            left: 25%;
+            @include transform(translate(-50%));
+        }
+
+        input.cancel-button {
+            right: 25%;
+            padding-right: 18px;
+            @include transform(translate(50%));
+        }
+
+        i {
+            position: absolute;
+            color: $white;
+            top: 13.5px;
+            z-index: 100;
+            font-size: 1.4em;
+        }
+
+        i.fa.fa-stop-circle-o.save-button {
+            left: 25%;
+            @include transform(translate(-178%));
+        }
+
+        i.fa.fa-times.cancel-button {
+            right: 25%;
+            @include transform(translate(-122%));
+        }
+    }
+}

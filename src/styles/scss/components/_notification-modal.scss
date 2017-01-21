@@ -1,0 +1,87 @@
+#notification-modal {
+    .modal-header {
+        height: 0;
+    }
+
+    .modal-body {
+        padding: 10px 0;
+
+        p {
+            color: $white;
+            font-size: 1.1em;
+            margin: 8px 0;
+            text-align: center;
+            text-overflow: ellipsis;
+        }
+    }
+
+    .modal-footer {
+        height: 60px;
+
+        input {
+            height: 70%;
+            width: 92px;
+            position: absolute;
+            font-size: 1.13em;
+            text-align: right;
+            padding-right: 20px;
+        }
+
+        input.close-button {
+            left: 50%;
+            padding-right: 13px;
+            @include transform(translate(-50%));
+        }
+
+        input.yes-button {
+            left: 25%;
+            @include transform(translate(-50%));
+        }
+
+        input.no-button {
+            right: 25%;
+            @include transform(translate(50%));
+        }
+
+        i {
+            position: absolute;
+            color: $white;
+            top: 7px;
+            z-index: 100;
+        }
+
+        i.fa.fa-times.close-button {
+            left: 50%;
+            @include transform(translate(-150%));
+        }
+
+        i.fa.fa-check.yes-button {
+            left: 25%;
+            @include transform(translate(-122%));
+        }
+
+        i.fa.fa-times.no-button {
+            right: 25%;
+            @include transform(translate(-25%));
+        }
+    }
+    @include set-size(90%,100px);
+}
+@include desktop {
+    #notification-modal {
+        @include set-size(26%,100px);
+
+        .modal-footer {
+            input {
+                font-size: 1.05em;
+            }
+
+            .fa.fa-times.close-button {
+                top: 6.5px;
+                left: 50%;
+                transform: translate(-162%);
+                z-index: 100;
+            }
+        }
+    }
+}

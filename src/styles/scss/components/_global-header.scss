@@ -1,0 +1,130 @@
+.dashboard-header {
+    background: $white;
+    height: 72px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.sapient-logo {
+    width: 100%;
+    height: 100%;
+}
+
+.logo-container {
+    position: absolute;
+    left: 7.72%;
+    width: 17px;
+    height: 33px;
+}
+
+.user-options {
+    float: right;
+    margin-right: 7%;
+}
+
+.user-name {
+    display: inline-block;
+    font-family: SapientCentroSlab;
+    cursor: pointer;
+}
+
+.user-image {
+    float: right;
+    margin-right: 3%;
+    cursor: pointer;
+}
+
+.display-icon {
+    display: block;
+    margin-left: 12px;
+    color: $black;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+
+    .dropdown-hover:hover {
+        background-color: $dropdown-hover-color;
+    }
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    top: 52px;
+    left: -100px;
+    z-index: 1;
+    background-color: $dropdown-menu-color;
+    font-family: SapientCentroSlab-Reg;
+    min-width: 150px;
+
+    .dropdown-hover {
+        color: $black;
+        padding: 12px 20px;
+        cursor: pointer;
+    }
+}
+
+.show {
+    display: block;
+}
+
+.help-position {
+    margin-left: 12px;
+}
+
+.logout-position {
+    margin-left: 14px;
+}
+
+.lock-position {
+    margin-left: 2px;
+}
+
+.icon-color {
+    color: $gray-light;
+}
+
+.userimage-size {
+    width: 18px;
+    height: 18px;
+}
+
+.my-profile {
+    margin-left: 8px;
+}
+@include desktop {
+    .dashboard-header {
+        background: url('../../../images/header-background-image.png');
+        background-size: cover;
+        height: 60px;
+    }
+
+    .logo-container {
+        left: 14.5%;
+    }
+
+    .user-image {
+        float: none;
+        margin-right: 0;
+        position: absolute;
+        top: 14px;
+        right: 13.4%;
+    }
+
+    .user-options {
+        margin-right: 16.5%;
+    }
+
+    .display-icon {
+        display: none;
+    }
+
+    .dropdown-content {
+        top: 24px;
+        left: -120px;
+    }
+}

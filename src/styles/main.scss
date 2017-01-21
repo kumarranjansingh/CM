@@ -1,0 +1,49 @@
+/*!
+ 	* Copyright (c) 2017, *******************, All rights reserved.
+	* Name of the file "main.css"
+	* This file contains cascading styles for the comlete site.
+    *
+	* @project   Competancy Matrix
+    * @date      09/01/2017
+	* @author    Competancy Matrix XT OCT-17 BATCH
+	* @licensor  MM / CM
+*/
+//importing variables files
+@import "scss/utilities/_variables.scss";
+//importing mixins
+@import "scss/utilities/_mixins.scss";
+//importing Normalize styles
+@import "scss/utilities/_normalize.scss";
+//importing grid system only from bootstrap
+@import "scss/utilities/_grid.scss";
+//importing global header styles
+@import "scss/components/_global-header.scss";
+//importing global footer styles
+@import "scss/components/_global-footer.scss";
+//importing common styles
+@import "scss/components/_common.scss";
+//importing generic modal styles
+@import "scss/components/_generic-modal.scss";
+//importing styles for login
+@import "scss/components/_index.scss";
+//importing styles for seach box
+@import "scss/components/_search.scss";
+//importing add skills modal styles
+@import "scss/components/_add-skills-modal.scss";
+//importing notification modal styles
+@import "scss/components/_notification-modal.scss";
+@import "scss/components/_update-profile-modal.scss";
+@import "scss/components/_dashboard.scss";
+
+//importing styles for Supervisee List //
+@import "scss/components/_superviseeList.scss";
+
+//importing Edit Skill styles
+@import "scss/components/_edit-skill.scss";
+
+
+
+//importing styles for inner page
+@import "scss/components/_inner-page.scss";
+//importing styles for edit Skill page //
+@import "scss/components/_edit-skill.scss";

@@ -1,0 +1,70 @@
+/*
+    * Copyright (c) 2016, naveenkumarpg.com, All rights reserved.
+    * Name of the file "common.js"
+    * This file contains changes related to the global and common components.
+    *
+    * @project   open source project for front-end developement
+    * @date      2016-09-10
+    * @author    Naveen Kumar PG, Gmail <naveenkumarpg@gmail.com>
+    * @licensor  naveenkumarpg.com
+    * @site      http://www.naveenkumarpg.com/
+ */
+// conatins all the font list that are used throughout the project
+@include font-face("Helvetica","../../../fonts/helveticaneue-bold/helvetica-neue-bold.ttf");
+@include font-face("SapientCentroSlab-XThin","../../../fonts/SapientCentroSlab PC/SapientCentroSlab-XThin.otf");
+@include font-face("SapientCentroSlab-Thin","../../../fonts/SapientCentroSlab PC/SapientCentroSlab-Thin.otf");
+@include font-face("SapientCentroSlab-Black","../../../fonts/SapientCentroSlab PC/SapientCentroSlab-Black.otf");
+@include font-face("SapientCentroSlab-Light","../../../fonts/SapientCentroSlab PC/SapientCentroSlab-Light.otf");
+@include font-face("SapientCentroSlab-Reg","../../../fonts/SapientCentroSlab PC/SapientCentroSlab-Reg.otf"); //this gives us the common background image
+
+body {
+    background-image: url('../../../images/bg.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+//this is the common button used in the project
+
+button {
+    background-color: $competency-red;
+    font-family: SapientCentroSlab-Reg;
+    color: $white;
+}
+
+.global-footer,
+.global-header {
+    background: #3ec7c2;
+    fill: #3ec7c2;
+    padding: 20px 0;
+    color: #fff;
+}
+
+.center {
+    text-align: center;
+}
+
+.main-content {
+    padding: 20px 0;
+}
+
+.caption {
+    padding: 40px 0;
+}
+
+.global-menu {
+    float: right;
+
+    li {
+        display: inline;
+        list-style: none;
+
+        a {
+            color: #fff;
+            font-size: 13px;
+            padding: 0 20px;
+        }
+    }
+}
+@include mobile {
+    background-size: contain;
+}

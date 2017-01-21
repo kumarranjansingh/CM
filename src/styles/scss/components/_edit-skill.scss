@@ -1,0 +1,288 @@
+.main {
+    color: $white;
+}
+
+.back-button,
+.primary-skills-mobile,
+.secondary-skill-mobile {
+    display: inline-block;
+}
+
+.skill-header {
+    background-color: $navigation-background;
+    overflow: hidden;
+}
+
+.skill-tab {
+    background-color: $navigation-background;
+    width: 33%;
+    font-family: SapientCentroSlab;
+}
+
+.back-button {
+    font-family: SapientCentroSlab-thin;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0;
+    -webkit-margin-end: 0;
+    margin-left: 10px;
+    font-size: 1.07em;
+    border-radius: 1.7em;
+    background-color: $navigation-background;
+    color: $navigation-font;
+    width: 65%;
+}
+
+.primary-skills-mobile {
+    width: 64%;
+    border-bottom: 4px solid $competency-red;
+    font-size: 16px;
+    font-family: SapientCentroSlab;
+}
+
+.secondary-skills-mobile {
+    width: 90%;
+    font-size: 16px;
+    font-family: SapientCentroSlab;
+}
+
+.primary {
+    color: $white;
+    float: left;
+    font-family: SapientCentroSlab;
+    padding: 0;
+}
+
+.primary h3 {
+    font-family: SapientCentroSlab-Thin;
+    display: none;
+}
+
+.secondary h3 {
+    font-family: SapientCentroSlab-Thin;
+    display: none;
+}
+
+.secondary {
+    display: none;
+    padding: 0;
+    float: left;
+    font-family: SapientCentroSlab;
+    color: $white;
+}
+
+.primary-skill-container {
+    background-color: $default-color;
+}
+
+.secondary-skill-container {
+    background-color: $default-color;
+}
+
+.main-skill-primary {
+    padding: 20px 20px 35px;
+    border-bottom: 1px solid #555555;
+}
+
+.main-skill-secondary {
+    padding: 20px 20px 35px;
+    border-bottom: 1px solid #555555;
+}
+
+.main-skill-name {
+    width: 67%;
+    float: left;
+}
+
+.fa-angle-down,
+.fa-angle-up {
+    width: 10%;
+    padding-right: 5%;
+    float: left;
+}
+
+
+.edit .edit-pencil{
+  padding: 3px;
+  font-size: 10px;
+  border: 1px solid black;
+  border-radius: 50%;
+}
+.add-skills .add-plus{
+  padding: 3px;
+  font-size: 10px;
+  border: 1px solid white;
+  border-radius: 50%;
+}
+
+.skill-level {
+    float: left;
+    width: 20%;
+}
+
+.beginner .expert .mediocre {
+    float: left;
+}
+
+.beginner {
+    text-align: center;
+    padding: 2px;
+    font-size: 10px;
+    width: 65px;
+    border-radius: 3px;
+    background-color: $beginner-blue;
+}
+
+.mediocre {
+    text-align: center;
+    padding: 2px;
+    font-size: 10px;
+    width: 65px;
+    border-radius: 3px;
+    background-color: $mediocre-yellow;
+}
+
+.expert {
+    text-align: center;
+    padding: 2px;
+    font-size: 10px;
+    width: 55px;
+    border-radius: 3px;
+    background-color: $expert-green;
+}
+
+.sub-skill-container {
+    display: none;
+}
+
+.sub-skill {
+    background-color: $default-sub-color;
+    padding: 20px 20px 35px;
+    border-bottom: 1px solid #555555;
+}
+
+.sub-skill-check {
+    margin-left: 7%;
+    float: left;
+    width: 10%;
+}
+
+.enable-check {
+    visibility: visible;
+}
+
+.disable-check {
+    visibility: hidden;
+}
+
+.disable {
+    color: $disabled-font;
+}
+
+.sub-skill-name {
+    width: 50%;
+    float: left;
+}
+
+.sub-skill-rating {
+    margin-left: 3%;
+    width: 30%;
+    float: left;
+}
+
+.stars-primary {
+    float: left;
+    width: 17%;
+}
+
+.stars-secondary {
+    float: left;
+    width: 17%;
+}
+/*        .stars polygon:hover,*/
+.primary-edit-button,
+.secondary-edit-button {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  overflow: hidden;
+}
+
+.add-skills {
+    float: right;
+    width: 110px;
+    background-color: $competency-red;
+    height: 30px;
+    border-radius: 3px;
+    border: none;
+    font-family: SapientCentroSlab;
+    font-size: 16px;
+}
+
+.edit,
+.submit {
+  margin-left: 10px;
+  margin-right: 15px;
+    float: right;
+    width: 70px;
+    background-color: $white;
+    height: 30px;
+    border-radius: 3px;
+    color: $black;
+    border: none;
+    font-family: SapientCentroSlab;
+    font-size: 16px;
+}
+@include desktop {
+    .inner-page-wrapper {}
+
+    .main {
+        width: 87%;
+        color: $white;
+    }
+
+    .primary-skills-mobile,
+    .secondary-skills-mobile {
+        display: none;
+    }
+
+    .skill-header {
+        display: none;
+    }
+
+    .primary {
+        display: block !important;
+        float: left;
+        width: 49%;
+        color: $white;
+    }
+
+    .secondary {
+        color: $white;
+        display: block !important;
+        float: left;
+        margin-left: 10px;
+        width: 49%;
+    }
+
+    .primary h3 {
+        padding-left: 15px;
+        display: block;
+    }
+
+    .secondary h3 {
+        padding-left: 15px;
+        display: block;
+    }
+
+    .primary-edit-button,
+    .secondary-edit-button {
+    }
+
+    .primary-skill-container {
+        border-radius: 5px;
+    }
+
+    .secondary-skill-container {
+        border-radius: 5px;
+    }
+}

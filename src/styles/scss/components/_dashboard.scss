@@ -1,0 +1,88 @@
+.profile-pic {
+    width: 162px;
+    height: 250px;
+    margin-bottom: -4px;
+}
+
+.profile-picture {
+    float: left;
+    width: 162px;
+    height: 250px;
+}
+
+.profile-details {
+    background-color: $competency-red;
+    color: $white;
+    font-family: SapientCentroSlab;
+    font-size: 16px;
+    height: 250px;
+    padding: 20px;
+    overflow-y: scroll;
+    word-wrap: break-word;
+
+    &::-webkit-scrollbar {
+        width: 0.5em;
+    }
+
+    &::-webkit-scrollbar-track {
+        -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    }
+
+    &::-webkit-scrollbar-thumb {
+        border-radius: 1.5em;
+        background-color: $default-color;
+        outline: 1px solid slategrey;
+    }
+}
+
+.supervisor-name-label {
+    font-size: 14px;
+    font-family: SapientCentroSlab-Medium;
+}
+// .supervisor-name-label {
+//     font-size: 20px;
+// }
+@include desktop {
+    .dashboard {
+        width: 100%;
+    }
+
+    .profile-picture {
+        float: none;
+        background-color: transparent;
+    }
+
+    .profile-pic {
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+        width: 200px;
+        height: 270px;
+    }
+
+    .profile-details {
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+        font-size: 12px;
+        height: auto;
+        overflow: auto;
+        width: 200px;
+    }
+
+    .supervisor-name-label {
+      font-size: 14px;
+        font-family: SapientCentroSlab-Medium;
+    }
+
+    .user-profile {
+        margin-top: 10px;
+        margin-left: 120px;
+        width: 200px;
+    }
+
+    .supervisor-dashboard-content {
+      
+        margin-left: 20px;
+        width: 65%;
+        overflow: hidden;
+    }
+}

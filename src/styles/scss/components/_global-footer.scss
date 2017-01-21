@@ -1,0 +1,24 @@
+// Global Footer.scss
+
+.generic-footer {
+    bottom: 0;
+    position: absolute;
+
+    p {
+        font-family: SapientCentroSlab-Light;
+        color: $gray-light;
+        padding-left: 10.5%;
+        padding-bottom: 8px;
+        font-size: 0.6em;
+
+        span {
+            color: $white;
+            font-family: SapientCentroSlab-Reg;
+        }
+    }
+
+    img {
+        height: 9px;
+        width: 100%;
+    }
+}

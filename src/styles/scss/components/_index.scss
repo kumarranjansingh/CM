@@ -1,0 +1,181 @@
+.login-wrapper {
+    width: 84.2242%; //(646px/767px)
+    padding-top: 62px;
+
+    .login-header {
+        .sapientnitro-logo {
+            width: 125px; //(250px/646px)
+            height: 29px;
+        }
+
+        .project-title {
+            margin-top: 47px;
+            color: $white;
+            font-family: 'SapientCentroSlab-XThin';
+            font-size: 47px;
+            text-transform: uppercase;
+            p {
+                margin: 0;
+            }
+        }
+    }
+
+    .login-body {
+      .reset-password-instructions{
+        color: $white;
+        font-family: 'SapientCentroSlab-XThin';
+        font-size: 15px;
+        line-height: 1.5;
+
+          a{
+            color: $competency-red;
+            display: inline-block;
+          }
+      }
+
+        .login-form {
+            div {
+                position: relative;
+                height: 66px;
+
+                .login-pwd,
+                .login-user {
+                    position: absolute;
+                    bottom: 12px;
+                    left: 12px;
+                }
+
+                .fa {
+                    color: $white;
+                    font-size: 20px;
+                }
+
+                input {
+                    background: transparent;
+                    color: $white;
+                    border-width: 0 0 1px 0;
+                    border-style: solid $white;
+                    box-sizing: padding-box;
+                    padding-left: 49px;
+                    padding-top: 26px;
+                    width: 100%;
+                    height: inherit;
+                    outline: none;
+                    font-family: 'SapientCentroSlab-Thin';
+                    font-size: 20px;
+
+                    ::-webkit-input-placeholder {
+                        color: $login-placeholder;
+                    }
+
+                    ::-moz-placeholder {
+                        color: $login-placeholder;
+                    }
+
+                    ::-ms-input-placeholder {
+                        color: $login-placeholder;
+                    }
+                }
+            }
+
+            .login-button {
+                width: 100%;
+                height: 60px;
+                margin-top: 36px;
+                margin-bottom: 35.5px;
+                background-color: $competency-red;
+                color: $white;
+                font-family: 'SapientCentroSlab';
+                font-size: 16px;
+                text-transform: uppercase;
+                border: none;
+                border-radius: 5px;
+            }
+
+            .fonts-checkbox {
+                    font-family: 'SapientCentroSlab-Thin';
+                    font-size: 16px;
+                    color: $white;
+                    margin: 0 15px;
+                    .forgot-password {
+                        cursor: pointer;
+                        margin-left: 5%;
+                    }
+                    .checkbox-custom {
+                        opacity: 0;
+                        position: absolute;
+                        cursor: pointer;
+                        width: 120px;
+                    }
+                    .checkbox-custom + .checkbox-custom-label:before {
+                        content: '';
+                        background: #000;
+                        border: 0.25px solid $white;
+                        display: inline-block;
+                        // vertical-align: middle;
+                        width: 12px;
+                        height: 12px;
+                        padding: 1px;
+                        margin-right: 15px;
+                        text-align: center;
+                    }
+                    .checkbox-custom:checked + .checkbox-custom-label:before {
+                        background: $white;
+                        box-shadow: inset 0px 0px 0px 2px #000;
+                    }
+                }
+
+                }
+                .validation-message{
+                  width: 100%;
+                  height: inherit;
+                  color: $competency-red;
+                  margin-top: -20px;
+                  letter-spacing: 1px;
+                  font-family: 'SapientCentroSlab';
+                }
+    }
+}
+//Media Query for Desktops
+@media screen and (min-width:$tab-max) {
+    .login-wrapper {
+        width: 70.31%;
+        padding-top: 240px;
+
+        .login-header {
+            //max-width: 430px;
+            padding-top: 30px;
+
+            .sapientnitro-logo {}
+
+            .project-title {
+                margin-top: 34px;
+                font-size: 64px;
+            }
+        }
+
+        .login-body {
+            max-width: 300px;
+            .login-form {
+                div {
+                    .login-pwd,
+                    .login-user {
+                        position: absolute;
+                    }
+
+                    input {
+                        font-size: 16px;
+                    }
+                }
+
+                #login-submit {
+                    width: 100%;
+                    margin-top: 38px;
+                    margin-bottom: 40px;
+                    height: 50px;
+                }
+                //Space left after this for Remember Me button
+            }
+        }
+    }
+}

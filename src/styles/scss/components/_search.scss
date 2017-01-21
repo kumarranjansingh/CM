@@ -1,0 +1,109 @@
+#search-box {
+    input[type="text" i] {
+        height: 40px;
+        padding-left: 15px;
+    }
+}
+
+#search-section {
+    position: relative;
+    width: 90%;
+}
+
+#search-section {
+    input::-webkit-input-placeholder {
+        color: #999;
+        letter-spacing: 1px;
+    }
+}
+
+#search-box {
+    padding-top: 15px;
+    padding-left: 40px;
+    border: 0;
+    background-color: transparent;
+    color: #999;
+    font-family: SapientCentroSlab-Thin;
+    font-size: 22px;
+    border-bottom: 1px solid #999;
+    width: 100%;
+}
+
+input:focus {
+    border-color: none;
+    outline: 0;
+    box-shadow: none;
+}
+
+#search-icon {
+    padding-top: 18px;
+    position: absolute;
+    transform: rotateY(180deg);
+    color: $white;
+    left: 18px;
+}
+
+// body{
+//   background-color:black;
+// }
+#search-result {
+    left: 10px;
+    top: 42px;
+    background-color: white;
+    color: black;
+    height: auto;
+    max-height: 250px;
+    width: 250px;
+    z-index: 900;
+    display: none;
+    position: absolute;
+    font-family: SapientCentroSlab;
+}
+
+#search-result div {
+    z-index: -1;
+    height: 45px;
+    padding-top: 5px;
+    padding-bottom: 20px;
+    margin: 0;
+    letter-spacing: 0;
+    border: 0;
+    color: #191919;
+}
+
+#search-result div span {
+    margin-left: 20px;
+    display: inline-block;
+}
+
+#search-result div:hover {
+    background-color: #b2b2b2;
+    cursor: pointer;
+}
+
+.search-employeeID {
+    font-weight: bold;
+    font-size: 12px;
+}
+
+@include mobile {
+    #search-section {
+        width: 100%;
+    }
+    #search-icon {
+        left: 0;
+        line-height: 50px;
+        padding-top: 0;
+        margin-left: 15px;
+        font-size: 20px;
+    }
+    #search-box {
+        padding-top: 5px;
+        padding-left: 45px;
+        height: 50px;
+    }
+    #search-result {
+        width: 100%;
+        left: 0;
+    }
+}

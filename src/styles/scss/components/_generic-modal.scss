@@ -1,0 +1,46 @@
+#modal-overlay {
+    @include position(absolute, 0, 0);
+    @include set-size(100%, 100%);
+    background-color: rgba(35, 32, 32, 0.8);
+    display: none;
+}
+
+.modal {
+    @include set-size(90%,260px);
+    @include borderradius(6px);
+    @include position(absolute,50%,50%);
+    @include transform(translate(-50%,-50%));
+    font-family: SapientCentroSlab;
+    background-color: $default-color;
+    padding: 0 6.4%;
+
+    .modal-header {
+        height: 45px;
+    }
+
+    .modal-footer {
+        height: 95px;
+        position: relative;
+
+        input {
+            width: 110px;
+            background-color: $competency-red;
+            height: 50%;
+            border-radius: 6px;
+            color: $white;
+            border: none;
+            font-family: SapientCentroSlab;
+            @include truncate;
+        }
+    }
+}
+
+.fixed {
+    overflow: hidden;
+}
+@include desktop {
+    .modal {
+        @include set-size(26% ,192px);
+        padding: 0 2%;
+    }
+}

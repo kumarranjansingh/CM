@@ -1,0 +1,28 @@
+---
+title: Your Dashboard
+layout: default.hbs
+---
+<div class="container dashboard">
+    <aside class=" user-profile col-xs-12 ">
+        {{>profile-section}}
+    </aside>
+    <article class="supervisor-dashboard-content col-xs-12 ">
+        {{>supervisee-list}}
+    </article>
+</div>
+<script id="supervisee-row" type="text/x-handlebars-template">​
+<div class="\{{rowClassName}} row supervisee-row" data-superviseeid="\{{id}}" tabindex="\{{index}}">
+<div class="supervisee-image col-xs-3 col-sm-2">
+<img class="supervisee-pic" src="\{{image}}">
+</div><div class="name-id-wrapper row col-xs-3 col-sm-4">
+<div class="supervisee-name col-xs-12 col-sm-6 col-sm-push-6">\{{first_name}} \{{last_name}}</div>
+<div class="supervisee-id col-xs-12 col-sm-6 col-sm-pull-6">\{{id}}</div>
+</div><div class="supervisee-role col-xs-3 col-sm-2">\{{role}}</div>
+<div class="supervisee-action col-xs-3 col-sm-2">
+<span class="supervisee-edit-button" data-superviseeid="\{{id}}">
+<i class="fa fa-pencil"></i></span>
+<span class="supervisee-delete-button" data-superviseeid="\{{id}}">
+<i class="fa fa-trash-o"></i></span>
+</div>
+</div>
+</script>

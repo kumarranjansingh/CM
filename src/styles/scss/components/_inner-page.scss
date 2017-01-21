@@ -1,0 +1,16 @@
+@include desktop {
+    .inner-page-wrapper {
+        margin-top: 10px;
+    }
+
+    .supervisee-profile {
+        float: left;
+        width: 200px;
+        margin-left: 120px;
+    }
+
+    .inner-page-edit-skill {
+        margin-left: 20px;
+        width: 60%;
+    }
+}

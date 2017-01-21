@@ -1,0 +1,1550 @@
+{
+  "supervisor_credentials": [
+    {
+      "id": "sjaya1",
+      "empid": "100000",
+      "email": "sjayabal2@sapient.com",
+      "name": "Sridharan Jayabal",
+      "password": "b3899ce3bed700496cbfd2e473b4d473"
+    },
+    {
+      "id": "ajangi",
+      "empid": "200000",
+      "email": "ajangid@sapient.com",
+      "name": "Ashish Jangid",
+      "password": "e37d332d7fcc810f8ffa7d81a7e4e8d0"
+    }
+  ],
+  "supervisor_list": [
+    {
+      "id": "100000",
+      "user_name": "sjaya",
+      "email": "sjayabal2@sapient.com",
+      "first_name": "Sridharan",
+      "last_name": "Jayabali",
+      "role": "Senior Associate L1",
+      "location": "Seat No. 12, 4th Floor, GR Tech Bangalore ",
+      "image": "../images/supervisor1-profile-picture.png",
+      "supervisee": [
+        {
+          "id": 350000,
+          "first_name": "Harb",
+          "last_name": "Singh",
+          "role": " Junior Interactive Developer ",
+          "location": "Seat No. 12, 4th Floor, GR Tech Bangalore ",
+          "image": "../images/supervisee5.jpg"
+        },
+        {
+          "id": 320000,
+          "first_name": "Kelly",
+          "last_name": "Prabha",
+          "role": " Senior Interactive Developer ",
+          "location": "Seat No. 12, 4th Floor, GR Tech Bangalore ",
+          "image": "../images/supervisee7.jpg"
+        },
+        {
+          "id": 120000,
+          "first_name": "Kriti",
+          "last_name": "Aggarwal",
+          "role": " Senior Interactive Developer ",
+          "location": "Seat No. 12, 4th Floor, GR Tech Bangalore ",
+          "image": "../images/supervisee7.jpg"
+        },
+        {
+          "id": 310000,
+          "first_name": "Lily",
+          "last_name": "Singh",
+          "role": " Junior Interactive Developer ",
+          "location": "Seat No. 12, 4th Floor, GR Tech Bangalore ",
+          "image": "../images/supervisee6.jpg"
+        },
+        {
+          "id": 130000,
+          "first_name": "Shikar",
+          "last_name": "Devanga",
+          "role": " Senior Interactive Developer L2",
+          "location": "Seat No. 12, 4th Floor, GR Tech Bangalore ",
+          "image": "../images/supervisee3.jpg"
+        },
+        {
+          "id": 140000,
+          "first_name": "Shreesha",
+          "last_name": "Alek",
+          "role": " Junior Interactive Developer L1",
+          "location": "Seat No. 12, 4th Floor, GR Tech Bangalore ",
+          "image": "../images/supervisee4.jpg"
+        },
+        {
+          "id": 150000,
+          "first_name": "Swayam",
+          "last_name": "Mohanty",
+          "role": " Junior Interactive Developer ",
+          "location": "Seat No. 12, 4th Floor, GR Tech Bangalore ",
+          "image": "../images/supervisee5.jpg"
+        },
+        {
+          "id": 340000,
+          "first_name": "Swayamsidha",
+          "last_name": "Mohanty",
+          "role": " Junior Interactive Developer L1",
+          "location": "Seat No. 12, 4th Floor, GR Tech Bangalore ",
+          "image": "../images/supervisee1.jpg"
+        },
+        {
+          "id": 110000,
+          "first_name": "Vivaan",
+          "last_name": "Bhatnagar",
+          "role": " Junior Interactive Developer ",
+          "location": "Seat No. 12, 4th Floor, GR Tech Bangalore ",
+          "image": "../images/supervisee6.jpg"
+        }
+      ]
+    },
+    {
+      "id": 200000,
+      "user_name": "ajangi",
+      "email": "ajangid@sapient.com",
+      "first_name": "Ashish",
+      "last_name": "Jangid",
+      "role": "Senior Associate",
+      "location": "Seat No. 12, 4th Floor, GR Tech Park, Bangalore",
+      "image": "../images/supervisor2-profile-picture.png",
+      "supervisee": [
+        {
+          "id": 210000,
+          "first_name": "Saumya",
+          "last_name": "Shreyashy",
+          "role": " Junior Interactive Developer ",
+          "location": "Seat No. 12, 4th Floor, GR Tech Bangalore ",
+          "image": "../images/supervisee6.jpg"
+        },
+        {
+          "id": 220000,
+          "first_name": "Tanvi",
+          "last_name": "Singh",
+          "role": " Senior Interactive Developer ",
+          "location": "Seat No. 12, 4th Floor, GR Tech Bangalore ",
+          "image": "../images/supervisee7.jpg"
+        },
+        {
+          "id": 230000,
+          "first_name": "Alok",
+          "last_name": "Singh",
+          "role": " Senior Interactive Developer L2",
+          "location": "Seat No. 12, 4th Floor, GR Tech Bangalore ",
+          "image": "../images/supervisee3.jpg"
+        },
+        {
+          "id": 240000,
+          "first_name": "Vikas",
+          "last_name": "Kumar",
+          "role": " Junior Interactive Developer L1",
+          "location": "Seat No. 12, 4th Floor, GR Tech Bangalore ",
+          "image": "../images/supervisee4.jpg"
+        },
+        {
+          "id": 250000,
+          "first_name": "Harbhajan",
+          "last_name": "Singh",
+          "role": " Junior Interactive Developer ",
+          "location": "Seat No. 12, 4th Floor, GR Tech Bangalore ",
+          "image": "../images/supervisee5.jpg"
+        }
+      ]
+    }
+  ],
+  "skill-set": [
+    {
+      "skill_name": "HTML5",
+      "sub_skills": [
+        {
+          "sub_skill_name": "Session Storage"
+        },
+        {
+          "sub_skill_name": "Local Storage"
+        }
+      ]
+    },
+    {
+      "skill_name": "CSS3",
+      "sub_skills": [
+        {
+          "sub_skill_name": "BootStrap"
+        },
+        {
+          "sub_skill_name": "Animations"
+        }
+      ]
+    },
+    {
+      "skill_name": "JavaScript",
+      "sub_skills": [
+        {
+          "sub_skill_name": "ES5"
+        },
+        {
+          "sub_skill_name": "ES6"
+        }
+      ]
+    },
+    {
+      "skill_name": "Framework",
+      "sub_skills": [
+        {
+          "sub_skill_name": "AngularJS"
+        },
+        {
+          "sub_skill_name": "NodeJS"
+        }
+      ]
+    },
+    {
+      "skill_name": "Software Designing",
+      "sub_skills": [
+        {
+          "sub_skill_name": "Agile Practice"
+        },
+        {
+          "sub_skill_name": "Scrum"
+        }
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "id": "110000",
+      "first_name": "Vivaan",
+      "last_name": "Bhatnagar",
+      "role": "Junior Interactive Developer ",
+      "location": " Seat No. 112, 4th Floor, GR Tech Park, Bangalore ",
+      "image": "../images/supervisee6.jpg",
+      "email": "vbhatnagar@sapient.com",
+      "primary": [
+        {
+          "skill_name": "HTML5",
+          "level": "BEGINNER",
+          "sub_skills": [
+            {
+              "sub_skill_name": "Session Storage",
+              "rating": 5
+            }
+          ]
+        },
+        {
+          "skill_name": "CSS3",
+          "level": "BEGINNER",
+          "sub_skills": [
+            {
+              "sub_skill_name": "BootStrap",
+              "rating": 1
+            }
+          ]
+        },
+        {
+          "skill_name": "JavaScript",
+          "level": "BEGINNER",
+          "sub_skills": [
+            {
+              "sub_skill_name": "ES5",
+              "rating": 1
+            },
+            {
+              "sub_skill_name": "ES6",
+              "rating": 1
+            },
+            {
+              "sub_skill_name": "Ajax",
+              "rating": 1
+            },
+            {
+              "sub_skill_name": "Date",
+              "rating": 1
+            }
+          ]
+        },
+        {
+          "skill_name": "Bootstrap",
+          "level": "EXPERT",
+          "sub_skills": [
+            {
+              "sub_skill_name": " Transitions ",
+              "rating": 3
+            },
+            {
+              "sub_skill_name": " Animations ",
+              "rating": 4
+            },
+            {
+              "sub_skill_name": "2",
+              "rating": 1
+            },
+            {
+              "sub_skill_name": "3",
+              "rating": 1
+            }
+          ]
+        },
+        {
+          "skill_name": "jQuery",
+          "level": "BEGINNER",
+          "sub_skills": [
+            {
+              "sub_skill_name": "Ajax Call",
+              "rating": 3
+            }
+          ]
+        },
+        {
+          "skill_name": "test",
+          "level": "BEGINNER",
+          "sub_skills": [
+            {
+              "sub_skill_name": "1",
+              "rating": 1
+            },
+            {
+              "sub_skill_name": "2",
+              "rating": 1
+            },
+            {
+              "sub_skill_name": "3",
+              "rating": 1
+            },
+            {
+              "sub_skill_name": "test1",
+              "rating": 1
+            },
+            {
+              "sub_skill_name": "test2",
+              "rating": 1
+            }
+          ]
+        }
+      ],
+      "secondary": [
+        {
+          "skill_name": "Framework",
+          "level": "BEGINNER",
+          "sub_skills": [
+            {
+              "sub_skill_name": "AngularJS",
+              "rating": 5
+            },
+            {
+              "sub_skill_name": "NodeJS",
+              "rating": 1
+            },
+            {
+              "sub_skill_name": "AngularJS",
+              "rating": 5
+            },
+            {
+              "sub_skill_name": "AngularJS",
+              "rating": 5
+            },
+            {
+              "sub_skill_name": "AngularJS",
+              "rating": 5
+            }
+          ]
+        },
+        {
+          "skill_name": "Software Designing",
+          "level": "BEGINNER",
+          "sub_skills": [
+            {
+              "sub_skill_name": "Agile Practice",
+              "rating": 1
+            },
+            {
+              "sub_skill_name": "Scrum",
+              "rating": 1
+            }
+          ]
+        },
+        {
+          "skill_name": "JQuery",
+          "level": "BEGINNER",
+          "sub_skills": [
+            {
+              "sub_skill_name": "function",
+              "rating": 1
+            }
+          ]
+        },
+        {
+          "skill_name": "test",
+          "level": "BEGINNER",
+          "sub_skills": [
+            {
+              "sub_skill_name": "1",
+              "rating": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "120000",
+      "first_name": "Kriti",
+      "last_name": "Aggarwal",
+      "role": "Junior Interactive Developer ",
+      "location": " Seat No. 112, 4th Floor, GR Tech Park, Bangalore ",
+      "image": "../images/supervisee7.jpg",
+      "email": "kaggarwal@sapient.com",
+      "primary": [
+        {
+          "skill_name": "HTML5",
+          "level": "BEGINNER",
+          "sub_skills": [
+            {
+              "sub_skill_name": "Session Storage",
+              "rating": 1
+            },
+            {
+              "sub_skill_name": "Local Storage",
+              "rating": 1
+            }
+          ]
+        },
+        {
+          "skill_name": "CSS3",
+          "level": "BEGINNER",
+          "sub_skills": [
+            {
+              "sub_skill_name": "BootStrap",
+              "rating": 1
+            },
+            {
+              "sub_skill_name": "Animations",
+              "rating": 1
+            }
+          ]
+        },
+        {
+          "skill_name": "JavaScript",
+          "level": "BEGINNER",
+          "sub_skills": [
+            {
+              "sub_skill_name": "ES5",
+              "rating": 1
+            },
+            {
+              "sub_skill_name": "ES6",
+              "rating": 1
+            }
+          ]
+        }
+      ],
+      "secondary": [
+        {
+          "skill_name": "Framework",
+          "level": "BEGINNER",
+          "sub_skills": [
+            {
+              "sub_skill_name": "AngularJS",
+              "rating": 1
+            },
+            {
+              "sub_skill_name": "NodeJS",
+              "rating": 1
+            }
+          ]
+        },
+        {
+          "skill_name": "Software Designing",
+          "level": "BEGINNER",
+          "sub_skills": [
+            {
+              "sub_skill_name": "Agile Practice",
+              "rating": 1
+            },
+            {
+              "sub_skill_name": "Scrum",
+              "rating": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 130000,
+      "first_name": "Shikar",
+      "last_name": "Devanga",
+      "role": "Junior Interactive Developer ",
+      "location": " Seat No. 112, 4th Floor, GR Tech Park, Bangalore ",
+      "image": "../images/supervisee3.jpg",
+      "email": "sdevanga@sapient.com",
+      "primary": [
+        {
+          "skill_name": "HTML5",
+          "level": "BEGINNER",
+          "sub_skills": [
+            {
+              "sub_skill_name": "Session Storage",
+              "rating": 1
+            },
+            {
+              "sub_skill_name": "Local Storage",
+              "rating": 1
+            }
+          ]
+        },
+        {
+          "skill_name": "CSS3",
+          "level": "BEGINNER",
+          "sub_skills": [
+            {
+              "sub_skill_name": "BootStrap",
+              "rating": 1
+            },
+            {
+              "sub_skill_name": "Animations",
+              "rating": 1
+            }
+          ]
+        },
+        {
+          "skill_name": "JavaScript",
+          "level": "BEGINNER",
+          "sub_skills": [
+            {
+              "sub_skill_name": "ES5",
+              "rating": 1
+            },
+            {
+              "sub_skill_name": "ES6",
+              "rating": 1
+            }
+          ]
+        }
+      ],
+      "secondary": [
+        {
+          "skill_name": "Framework",
+          "level": "BEGINNER",
+          "sub_skills": [
+            {
+              "sub_skill_name": "AngularJS",
+              "rating": 1
+            },
+            {
+              "sub_skill_name": "NodeJS",
+              "rating": 1
+            }
+          ]
+        },
+        {
+          "skill_name": "Software Designing",
+          "level": "BEGINNER",
+          "sub_skills": [
+            {
+              "sub_skill_name": "Agile Practice",
+              "rating": 1
+            },
+            {
+              "sub_skill_name": "Scrum",
+              "rating": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 140000,
+      "first_name": "Shreesha",
+      "last_name": "Alek",
+      "role": "Junior Interactive Developer ",
+      "location": " Seat No. 112, 4th Floor, GR Tech Park, Bangalore ",
+      "image": "../images/supervisee4.jpg",
+      "email": "salek@sapient.com",
+      "primary": [
+        {
+          "skill_name": "HTML5",
+          "level": "BEGINNER",
+          "sub_skills": [
+            {
+              "sub_skill_name": "Session Storage",
+              "rating": 1
+            },
+            {
+              "sub_skill_name": "Local Storage",
+              "rating": 1
+            }
+          ]
+        },
+        {
+          "skill_name": "CSS3",
+          "level": "BEGINNER",
+          "sub_skills": [
+            {
+              "sub_skill_name": "BootStrap",
+              "rating": 1
+            },
+            {
+              "sub_skill_name": "Animations",
+              "rating": 1
+            }
+          ]
+        },
+        {
+          "skill_name": "JavaScript",
+          "level": "BEGINNER",
+          "sub_skills": [
+            {
+              "sub_skill_name": "ES5",
+              "rating": 1
+            },
+            {
+              "sub_skill_name": "ES6",
+              "rating": 1
+            }
+          ]
+        }
+      ],
+      "secondary": [
+        {
+          "skill_name": "Framework",
+          "level": "BEGINNER",
+          "sub_skills": [
+            {
+              "sub_skill_name": "AngularJS",
+              "rating": 1
+            },
+            {
+              "sub_skill_name": "NodeJS",
+              "rating": 1
+            }
+          ]
+        },
+        {
+          "skill_name": "Software Designing",
+          "level": "BEGINNER",
+          "sub_skills": [
+            {
+              "sub_skill_name": "Agile Practice",
+              "rating": 1
+            },
+            {
+              "sub_skill_name": "Scrum",
+              "rating": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 150000,
+      "first_name": "Swayam",
+      "last_name": "Mohanty",
+      "role": "Junior Interactive Developer ",
+      "location": " Seat No. 112, 4th Floor, GR Tech Park, Bangalore ",
+      "image": "../images/supervisee5.jpg",
+      "email": "smohanty@sapient.com",
+      "primary": [
+        {
+          "skill_name": "HTML5",
+          "level": "BEGINNER",
+          "sub_skills": [
+            {
+              "sub_skill_name": "Session Storage",
+              "rating": 1
+            },
+            {
+              "sub_skill_name": "Local Storage",
+              "rating": 1
+            }
+          ]
+        },
+        {
+          "skill_name": "CSS3",
+          "level": "BEGINNER",
+          "sub_skills": [
+            {
+              "sub_skill_name": "BootStrap",
+              "rating": 1
+            },
+            {
+              "sub_skill_name": "Animations",
+              "rating": 1
+            }
+          ]
+        },
+        {
+          "skill_name": "JavaScript",
+          "level": "BEGINNER",
+          "sub_skills": [
+            {
+              "sub_skill_name": "ES5",
+              "rating": 1
+            },
+            {
+              "sub_skill_name": "ES6",
+              "rating": 1
+            }
+          ]
+        }
+      ],
+      "secondary": [
+        {
+          "skill_name": "Framework",
+          "level": "BEGINNER",
+          "sub_skills": [
+            {
+              "sub_skill_name": "AngularJS",
+              "rating": 1
+            },
+            {
+              "sub_skill_name": "NodeJS",
+              "rating": 1
+            }
+          ]
+        },
+        {
+          "skill_name": "Software Designing",
+          "level": "BEGINNER",
+          "sub_skills": [
+            {
+              "sub_skill_name": "Agile Practice",
+              "rating": 1
+            },
+            {
+              "sub_skill_name": "Scrum",
+              "rating": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 310000,
+      "first_name": "Lily",
+      "last_name": "Singh",
+      "role": "Junior Interactive Developer ",
+      "location": " Seat No. 112, 4th Floor, GR Tech Park, Bangalore ",
+      "image": "../images/supervisee6.jpg",
+      "email": "lsingh@sapient.com",
+      "primary": [
+        {
+          "skill_name": "HTML5",
+          "level": "BEGINNER",
+          "sub_skills": [
+            {
+              "sub_skill_name": "Session Storage",
+              "rating": 1
+            },
+            {
+              "sub_skill_name": "Local Storage",
+              "rating": 1
+            }
+          ]
+        },
+        {
+          "skill_name": "CSS3",
+          "level": "BEGINNER",
+          "sub_skills": [
+            {
+              "sub_skill_name": "BootStrap",
+              "rating": 1
+            },
+            {
+              "sub_skill_name": "Animations",
+              "rating": 1
+            }
+          ]
+        },
+        {
+          "skill_name": "JavaScript",
+          "level": "BEGINNER",
+          "sub_skills": [
+            {
+              "sub_skill_name": "ES5",
+              "rating": 1
+            },
+            {
+              "sub_skill_name": "ES6",
+              "rating": 1
+            }
+          ]
+        }
+      ],
+      "secondary": [
+        {
+          "skill_name": "Framework",
+          "level": "BEGINNER",
+          "sub_skills": [
+            {
+              "sub_skill_name": "AngularJS",
+              "rating": 1
+            },
+            {
+              "sub_skill_name": "NodeJS",
+              "rating": 1
+            }
+          ]
+        },
+        {
+          "skill_name": "Software Designing",
+          "level": "BEGINNER",
+          "sub_skills": [
+            {
+              "sub_skill_name": "Agile Practice",
+              "rating": 1
+            },
+            {
+              "sub_skill_name": "Scrum",
+              "rating": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 320000,
+      "first_name": "Kelly",
+      "last_name": "Prabha",
+      "role": "Junior Interactive Developer ",
+      "location": " Seat No. 112, 4th Floor, GR Tech Park, Bangalore ",
+      "image": "../images/supervisee7.jpg",
+      "email": "kpraba@sapient.com",
+      "primary": [
+        {
+          "skill_name": "HTML5",
+          "level": "BEGINNER",
+          "sub_skills": [
+            {
+              "sub_skill_name": "Session Storage",
+              "rating": 1
+            },
+            {
+              "sub_skill_name": "Local Storage",
+              "rating": 1
+            }
+          ]
+        },
+        {
+          "skill_name": "CSS3",
+          "level": "BEGINNER",
+          "sub_skills": [
+            {
+              "sub_skill_name": "BootStrap",
+              "rating": 1
+            },
+            {
+              "sub_skill_name": "Animations",
+              "rating": 1
+            }
+          ]
+        },
+        {
+          "skill_name": "JavaScript",
+          "level": "BEGINNER",
+          "sub_skills": [
+            {
+              "sub_skill_name": "ES5",
+              "rating": 1
+            },
+            {
+              "sub_skill_name": "ES6",
+              "rating": 1
+            }
+          ]
+        }
+      ],
+      "secondary": [
+        {
+          "skill_name": "Framework",
+          "level": "BEGINNER",
+          "sub_skills": [
+            {
+              "sub_skill_name": "AngularJS",
+              "rating": 1
+            },
+            {
+              "sub_skill_name": "NodeJS",
+              "rating": 1
+            }
+          ]
+        },
+        {
+          "skill_name": "Software Designing",
+          "level": "BEGINNER",
+          "sub_skills": [
+            {
+              "sub_skill_name": "Agile Practice",
+              "rating": 1
+            },
+            {
+              "sub_skill_name": "Scrum",
+              "rating": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 330000,
+      "first_name": "Alan",
+      "last_name": "Walker",
+      "role": "Junior Interactive Developer ",
+      "location": " Seat No. 112, 4th Floor, GR Tech Park, Bangalore ",
+      "image": "../images/supervisee3.jpg",
+      "email": "awalker@sapient.com",
+      "primary": [
+        {
+          "skill_name": "HTML5",
+          "level": "BEGINNER",
+          "sub_skills": [
+            {
+              "sub_skill_name": "Session Storage",
+              "rating": 1
+            },
+            {
+              "sub_skill_name": "Local Storage",
+              "rating": 1
+            }
+          ]
+        },
+        {
+          "skill_name": "CSS3",
+          "level": "BEGINNER",
+          "sub_skills": [
+            {
+              "sub_skill_name": "BootStrap",
+              "rating": 1
+            },
+            {
+              "sub_skill_name": "Animations",
+              "rating": 1
+            }
+          ]
+        },
+        {
+          "skill_name": "JavaScript",
+          "level": "BEGINNER",
+          "sub_skills": [
+            {
+              "sub_skill_name": "ES5",
+              "rating": 1
+            },
+            {
+              "sub_skill_name": "ES6",
+              "rating": 1
+            }
+          ]
+        }
+      ],
+      "secondary": [
+        {
+          "skill_name": "Framework",
+          "level": "BEGINNER",
+          "sub_skills": [
+            {
+              "sub_skill_name": "AngularJS",
+              "rating": 1
+            },
+            {
+              "sub_skill_name": "NodeJS",
+              "rating": 1
+            }
+          ]
+        },
+        {
+          "skill_name": "Software Designing",
+          "level": "BEGINNER",
+          "sub_skills": [
+            {
+              "sub_skill_name": "Agile Practice",
+              "rating": 1
+            },
+            {
+              "sub_skill_name": "Scrum",
+              "rating": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 340000,
+      "first_name": "Swayamsidha",
+      "last_name": "Mohanty",
+      "role": "Junior Interactive Developer ",
+      "location": " Seat No. 112, 4th Floor, GR Tech Park, Bangalore ",
+      "image": "../images/supervisee4.jpg",
+      "email": "swmohanty@sapient.com",
+      "primary": [
+        {
+          "skill_name": "HTML5",
+          "level": "BEGINNER",
+          "sub_skills": [
+            {
+              "sub_skill_name": "Session Storage",
+              "rating": 1
+            },
+            {
+              "sub_skill_name": "Local Storage",
+              "rating": 1
+            }
+          ]
+        },
+        {
+          "skill_name": "CSS3",
+          "level": "BEGINNER",
+          "sub_skills": [
+            {
+              "sub_skill_name": "BootStrap",
+              "rating": 1
+            },
+            {
+              "sub_skill_name": "Animations",
+              "rating": 1
+            }
+          ]
+        },
+        {
+          "skill_name": "JavaScript",
+          "level": "BEGINNER",
+          "sub_skills": [
+            {
+              "sub_skill_name": "ES5",
+              "rating": 1
+            },
+            {
+              "sub_skill_name": "ES6",
+              "rating": 1
+            }
+          ]
+        }
+      ],
+      "secondary": [
+        {
+          "skill_name": "Framework",
+          "level": "BEGINNER",
+          "sub_skills": [
+            {
+              "sub_skill_name": "AngularJS",
+              "rating": 1
+            },
+            {
+              "sub_skill_name": "NodeJS",
+              "rating": 1
+            }
+          ]
+        },
+        {
+          "skill_name": "Software Designing",
+          "level": "BEGINNER",
+          "sub_skills": [
+            {
+              "sub_skill_name": "Agile Practice",
+              "rating": 1
+            },
+            {
+              "sub_skill_name": "Scrum",
+              "rating": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 350000,
+      "first_name": "Harb",
+      "last_name": "Singh",
+      "role": "Junior Interactive Developer ",
+      "location": " Seat No. 112, 4th Floor, GR Tech Park, Bangalore ",
+      "image": "../images/supervisee5.jpg",
+      "email": "hsingh@sapient.com",
+      "primary": [
+        {
+          "skill_name": "HTML5",
+          "level": "BEGINNER",
+          "sub_skills": [
+            {
+              "sub_skill_name": "Session Storage",
+              "rating": 3
+            },
+            {
+              "sub_skill_name": "Local Storage",
+              "rating": 4
+            }
+          ]
+        },
+        {
+          "skill_name": "CSS3",
+          "level": "BEGINNER",
+          "sub_skills": [
+            {
+              "sub_skill_name": "BootStrap",
+              "rating": 1
+            },
+            {
+              "sub_skill_name": "Animations",
+              "rating": 1
+            }
+          ]
+        },
+        {
+          "skill_name": "JavaScript",
+          "level": "BEGINNER",
+          "sub_skills": [
+            {
+              "sub_skill_name": "ES5",
+              "rating": 1
+            },
+            {
+              "sub_skill_name": "ES6",
+              "rating": 1
+            }
+          ]
+        }
+      ],
+      "secondary": [
+        {
+          "skill_name": "Framework",
+          "level": "BEGINNER",
+          "sub_skills": [
+            {
+              "sub_skill_name": "AngularJS",
+              "rating": 1
+            },
+            {
+              "sub_skill_name": "NodeJS",
+              "rating": 1
+            }
+          ]
+        },
+        {
+          "skill_name": "Software Designing",
+          "level": "BEGINNER",
+          "sub_skills": [
+            {
+              "sub_skill_name": "Agile Practice",
+              "rating": 1
+            },
+            {
+              "sub_skill_name": "Scrum",
+              "rating": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 210000,
+      "first_name": "Saumya",
+      "last_name": "Shreyashy",
+      "role": "Junior Interactive Developer ",
+      "location": " Seat No. 112, 4th Floor, GR Tech Park, Bangalore ",
+      "image": "../images/supervisee6.jpg",
+      "email": "sshreyashy@sapient.com",
+      "primary": [
+        {
+          "skill_name": "HTML5",
+          "level": "BEGINNER",
+          "sub_skills": [
+            {
+              "sub_skill_name": "Session Storage",
+              "rating": 1
+            },
+            {
+              "sub_skill_name": "Local Storage",
+              "rating": 1
+            }
+          ]
+        },
+        {
+          "skill_name": "CSS3",
+          "level": "BEGINNER",
+          "sub_skills": [
+            {
+              "sub_skill_name": "BootStrap",
+              "rating": 1
+            },
+            {
+              "sub_skill_name": "Animations",
+              "rating": 1
+            }
+          ]
+        },
+        {
+          "skill_name": "JavaScript",
+          "level": "BEGINNER",
+          "sub_skills": [
+            {
+              "sub_skill_name": "ES5",
+              "rating": 1
+            },
+            {
+              "sub_skill_name": "ES6",
+              "rating": 1
+            }
+          ]
+        }
+      ],
+      "secondary": [
+        {
+          "skill_name": "Framework",
+          "level": "BEGINNER",
+          "sub_skills": [
+            {
+              "sub_skill_name": "AngularJS",
+              "rating": 1
+            },
+            {
+              "sub_skill_name": "NodeJS",
+              "rating": 1
+            }
+          ]
+        },
+        {
+          "skill_name": "Software Designing",
+          "level": "BEGINNER",
+          "sub_skills": [
+            {
+              "sub_skill_name": "Agile Practice",
+              "rating": 1
+            },
+            {
+              "sub_skill_name": "Scrum",
+              "rating": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 220000,
+      "first_name": "Tanvi",
+      "last_name": "Singh",
+      "role": "Junior Interactive Developer ",
+      "location": " Seat No. 112, 4th Floor, GR Tech Park, Bangalore ",
+      "image": "../images/supervisee2.jpg",
+      "email": "tsingh@sapient.com",
+      "primary": [
+        {
+          "skill_name": "HTML5",
+          "level": "BEGINNER",
+          "sub_skills": [
+            {
+              "sub_skill_name": "Session Storage",
+              "rating": 1
+            },
+            {
+              "sub_skill_name": "Local Storage",
+              "rating": 1
+            }
+          ]
+        },
+        {
+          "skill_name": "CSS3",
+          "level": "BEGINNER",
+          "sub_skills": [
+            {
+              "sub_skill_name": "BootStrap",
+              "rating": 1
+            },
+            {
+              "sub_skill_name": "Animations",
+              "rating": 1
+            }
+          ]
+        },
+        {
+          "skill_name": "JavaScript",
+          "level": "BEGINNER",
+          "sub_skills": [
+            {
+              "sub_skill_name": "ES5",
+              "rating": 1
+            },
+            {
+              "sub_skill_name": "ES6",
+              "rating": 1
+            }
+          ]
+        }
+      ],
+      "secondary": [
+        {
+          "skill_name": "Framework",
+          "level": "BEGINNER",
+          "sub_skills": [
+            {
+              "sub_skill_name": "AngularJS",
+              "rating": 1
+            },
+            {
+              "sub_skill_name": "NodeJS",
+              "rating": 1
+            }
+          ]
+        },
+        {
+          "skill_name": "Software Designing",
+          "level": "BEGINNER",
+          "sub_skills": [
+            {
+              "sub_skill_name": "Agile Practice",
+              "rating": 1
+            },
+            {
+              "sub_skill_name": "Scrum",
+              "rating": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 230000,
+      "first_name": "Alok",
+      "last_name": "Singh",
+      "role": "Junior Interactive Developer ",
+      "location": " Seat No. 112, 4th Floor, GR Tech Park, Bangalore ",
+      "image": "../images/supervisee3.jpg",
+      "email": "asingh@sapient.com",
+      "primary": [
+        {
+          "skill_name": "HTML5",
+          "level": "BEGINNER",
+          "sub_skills": [
+            {
+              "sub_skill_name": "Session Storage",
+              "rating": 1
+            },
+            {
+              "sub_skill_name": "Local Storage",
+              "rating": 1
+            }
+          ]
+        },
+        {
+          "skill_name": "CSS3",
+          "level": "BEGINNER",
+          "sub_skills": [
+            {
+              "sub_skill_name": "BootStrap",
+              "rating": 1
+            },
+            {
+              "sub_skill_name": "Animations",
+              "rating": 1
+            }
+          ]
+        },
+        {
+          "skill_name": "JavaScript",
+          "level": "BEGINNER",
+          "sub_skills": [
+            {
+              "sub_skill_name": "ES5",
+              "rating": 1
+            },
+            {
+              "sub_skill_name": "ES6",
+              "rating": 1
+            }
+          ]
+        }
+      ],
+      "secondary": [
+        {
+          "skill_name": "Framework",
+          "level": "BEGINNER",
+          "sub_skills": [
+            {
+              "sub_skill_name": "AngularJS",
+              "rating": 1
+            },
+            {
+              "sub_skill_name": "NodeJS",
+              "rating": 1
+            }
+          ]
+        },
+        {
+          "skill_name": "Software Designing",
+          "level": "BEGINNER",
+          "sub_skills": [
+            {
+              "sub_skill_name": "Agile Practice",
+              "rating": 1
+            },
+            {
+              "sub_skill_name": "Scrum",
+              "rating": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 240000,
+      "first_name": "Vikar",
+      "last_name": "Kumar",
+      "role": "Junior Interactive Developer ",
+      "location": " Seat No. 112, 4th Floor, GR Tech Park, Bangalore ",
+      "image": "../images/supervisee4.jpg",
+      "email": "vkumar141@sapient.com",
+      "primary": [
+        {
+          "skill_name": "HTML5",
+          "level": "BEGINNER",
+          "sub_skills": [
+            {
+              "sub_skill_name": "Session Storage",
+              "rating": 1
+            },
+            {
+              "sub_skill_name": "Local Storage",
+              "rating": 1
+            }
+          ]
+        },
+        {
+          "skill_name": "CSS3",
+          "level": "BEGINNER",
+          "sub_skills": [
+            {
+              "sub_skill_name": "BootStrap",
+              "rating": 1
+            },
+            {
+              "sub_skill_name": "Animations",
+              "rating": 1
+            }
+          ]
+        },
+        {
+          "skill_name": "JavaScript",
+          "level": "BEGINNER",
+          "sub_skills": [
+            {
+              "sub_skill_name": "ES5",
+              "rating": 1
+            },
+            {
+              "sub_skill_name": "ES6",
+              "rating": 1
+            }
+          ]
+        }
+      ],
+      "secondary": [
+        {
+          "skill_name": "Framework",
+          "level": "BEGINNER",
+          "sub_skills": [
+            {
+              "sub_skill_name": "AngularJS",
+              "rating": 1
+            },
+            {
+              "sub_skill_name": "NodeJS",
+              "rating": 1
+            }
+          ]
+        },
+        {
+          "skill_name": "Software Designing",
+          "level": "BEGINNER",
+          "sub_skills": [
+            {
+              "sub_skill_name": "Agile Practice",
+              "rating": 1
+            },
+            {
+              "sub_skill_name": "Scrum",
+              "rating": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 250000,
+      "first_name": "Harbhajan",
+      "last_name": "Singh",
+      "role": "Junior Interactive Developer ",
+      "location": " Seat No. 112, 4th Floor, GR Tech Park, Bangalore ",
+      "image": "../images/supervisee4.jpg",
+      "email": "hsingh@sapient.com",
+      "primary": [
+        {
+          "skill_name": "HTML5",
+          "level": "BEGINNER",
+          "sub_skills": [
+            {
+              "sub_skill_name": "Session Storage",
+              "rating": 1
+            },
+            {
+              "sub_skill_name": "Local Storage",
+              "rating": 1
+            }
+          ]
+        },
+        {
+          "skill_name": "CSS3",
+          "level": "BEGINNER",
+          "sub_skills": [
+            {
+              "sub_skill_name": "BootStrap",
+              "rating": 1
+            },
+            {
+              "sub_skill_name": "Animations",
+              "rating": 1
+            }
+          ]
+        },
+        {
+          "skill_name": "JavaScript",
+          "level": "BEGINNER",
+          "sub_skills": [
+            {
+              "sub_skill_name": "ES5",
+              "rating": 1
+            },
+            {
+              "sub_skill_name": "ES6",
+              "rating": 1
+            }
+          ]
+        }
+      ],
+      "secondary": [
+        {
+          "skill_name": "Framework",
+          "level": "BEGINNER",
+          "sub_skills": [
+            {
+              "sub_skill_name": "AngularJS",
+              "rating": 1
+            },
+            {
+              "sub_skill_name": "NodeJS",
+              "rating": 1
+            }
+          ]
+        },
+        {
+          "skill_name": "Software Designing",
+          "level": "BEGINNER",
+          "sub_skills": [
+            {
+              "sub_skill_name": "Agile Practice",
+              "rating": 1
+            },
+            {
+              "sub_skill_name": "Scrum",
+              "rating": 1
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

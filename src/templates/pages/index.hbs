@@ -1,0 +1,24 @@
+---
+title: Login Page
+layout: login.hbs
+---
+
+
+<form class="login-form">
+    <div>
+        <span class="login-user"><i class="fa fa-user" aria-hidden="true"></i></span>
+        <input type="text" id="username" name="username" placeholder="Username" tabindex="1" autocomplete="off">
+    </div>
+    <div>
+        <span class="login-pwd"><i class="fa fa-lock" aria-hidden="true"></i></span>
+        <input type="password" id="password" name="password" placeholder="Password" tabindex="2" >
+    </div>
+    <input type="submit" id="login-submit" class="login-button" value="LOGIN" tabindex="4">
+    <div class="fonts-checkbox">
+      <span class="remember-me">
+           <input id="checkbox" class="checkbox-custom" name="checkbox" type="checkbox" tabindex="3">
+           <label for="checkbox" class="checkbox-custom-label">Remember Me</label>
+     </span>
+           <span class="forgot-password" tabindex="5">Forgot Password</span>
+   </div>
+</form>

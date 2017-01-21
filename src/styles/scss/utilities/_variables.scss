@@ -1,0 +1,46 @@
+/*
+ 	* Copyright (c) 2017, *******************, All rights reserved.
+	* Name of the file "_variables.scss"
+	* This file contains scss variables.
+    *
+	* @project   ***************************
+    * @date      09/01/2017
+	* @author    Naveen Kumar,<nkumar54@sapient.com>
+	* @licensor  MM / CM
+*/
+$maxWidth: 1920px; //Breakpoints
+$mobile-min: 320px;
+$mobile-max: 768px;
+$tab-min: $mobile-max + 1px;
+$tab-max: 991px;
+$desktop-min: $tab-max + 1px;
+$desktop-max: 1199px;
+$large-min: $desktop-max + 1px;
+$large-max: 1440px;
+$xlarge-min: $maxWidth + 1px;
+$gutterspace: 0;
+$gutterhalf: ($gutterspace/2);
+// Colors
+$white: #fff;
+$black: #000;
+$gray-light: #ccc;
+$list-header: #2c2c2c;
+$list-header-font: #999;
+$login-placeholder: #595959;
+$dropdown-menu-color: #f9f9f9;
+$dropdown-hover-color: #f1f1f1;
+$competency-red: #dd2728;
+$default-color: #424242;
+$default-sub-color: #3d3d3d;
+$modal-placeholder-color: #9f9f9f;
+$selected-stars: #3fbde8;
+$expert-green: #589708;
+$mediocre-yellow: #9a8409;
+$beginner-blue: #2d6d87;
+$edit-white: #fdfdfd;
+$unselected-stars: #5c5c5c;
+$disabled-unselected-stars: #4c4c4c;
+$disabled-font: #898989;
+$disabled-stars: #4c4c4c;
+$navigation-background: #262626;
+$navigation-font: #f0f0f0;

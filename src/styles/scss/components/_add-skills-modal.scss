@@ -1,0 +1,62 @@
+#add-skills-modal {
+    .modal-header {
+        padding-top: 23px;
+        font-size: 1.4em;
+        color: $white;
+    }
+
+    .modal-body > div {
+        height: 60px;
+        border-bottom: 1px solid $list-header-font;
+        position: relative;
+
+        input,
+        select {
+            height: 75%;
+            width: 85%;
+            color: $white;
+            background-color: $default-color;
+            border: none;
+            font-family: SapientCentroSlab;
+            font-size: 1.2em;
+            margin-top: 14px;
+            outline: none;
+            padding-top: 11px;
+        }
+
+        a#add-subskill-button {
+            position: absolute;
+            top: 22px;
+            right: 4%;
+        }
+
+        .fa.fa-plus {
+            color: $white;
+        }
+    }
+
+    .modal-footer {
+        position: relative;
+
+        input {
+            text-align: right;
+            padding-right: 22px;
+            margin-top: 23px;
+            font-size: 1.2em;
+        }
+
+        .fa.fa-stop-circle {
+            position: absolute;
+            color: #fff;
+            top: 35px;
+            left: 24px;
+            padding: 2px;
+            border: 1px solid #fff;
+            border-radius: 50%;
+        }
+    }
+}
+//
+// .custom-primary-skills,.custom-secondary-skills{
+//   display: none;
+// }
